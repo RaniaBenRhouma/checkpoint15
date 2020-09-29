@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
-import Photoo from "./ProfilPhoto";
-import Nameee from "./FullName";
-import Adresss from "./Compenent/Profile/Address";
+import {Photoo} from "./Compenent/Profile/ProfilPhoto";
+import {Nameee} from "./Compenent/Profile/FullName";
+import {Adresss} from "./Compenent/Profile/Address";
+import {NavigationBar} from "./Compenent/Profile/NavBar";
+
 
 
 function App() {
@@ -10,8 +12,10 @@ function App() {
   return (
     <div className="App">
     <Photoo />
-    <Nameee />
-    <Adresss />
+    <Nameee/>
+   <Adresss/>
+   <NavigationBar />
+
 
     </div>
   );
